@@ -12,6 +12,8 @@ self: super: {
 
     hypopg = super.callPackage ./hypopg.nix { };
 
+    index-advisor = super.callPackage ./index-advisor.nix { };
+
     jsonb_deep_sum = super.callPackage ./jsonb_deep_sum.nix { };
 
     lantern = super.callPackage ./lantern.nix { };
